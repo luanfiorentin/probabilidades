@@ -1,0 +1,143 @@
+---
+title: "Cronograma das aulas do curso"
+output: 
+  html_document:
+    toc: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+source("knitr_setup.R")
+```
+
+
+O cronograma inicial planejado para as disciplinas 
+está apresentado na sequência, mas pode sofrer alterações durante o 
+decorrer do semestre.
+
+## Escolha a aba de sua turma {.tabset}
+
+### Ciências Sociais
+
+```{r, eval=FALSE, include=FALSE}
+## Gera a lista com as datas de todas as aulas. 
+##  O resultado do último comando pode ser copiado direto para o documento
+datas1 <- seq.Date(as.Date("2020-03-03"), as.Date("2020-06-23"),
+                   by = "week")
+datas1 <- format.Date(datas1, format = "%d/%m")
+datas2 <- seq.Date(as.Date("2020-03-05"), as.Date("2020-06-25"),
+                   by = "week")
+datas2 <- format.Date(datas2, format = "%d/%m")
+
+cat(paste0("- **", datas1, " (Ter)", "**:\n", "- **",
+           datas2, " (Qui)", "**:\n"))
+```
+
+- **03/03 (Ter)**: Apresentação da disciplina
+- **05/03 (Qui)**: **Não haverá aula**
+ - **10/03 (Ter)**: (1) Probabilidades
+- **12/03 (Qui)**: (2) Análise Exploratória de Dados
+ - **17/03 (Ter)**: (2) Análise Exploratória de Dados
+- **19/03 (Qui)**: (3) Medidas de Resumo
+ - **24/03 (Ter)**: (3) Medidas de Resumo
+- **26/03 (Qui)**: Exercícios
+ - **31/03 (Ter)**: **Prova 1**
+
+- **02/04 (Qui)**: (4) Variáveis Aleatórias
+ - **07/04 (Ter)**: (4) Variáveis Aleatórias
+- **09/04 (Qui)**: (5) Distribuições de Probabilidade
+ - **14/04 (Ter)**: (5) Distribuições de Probabilidade
+- **16/04 (Qui)**: (6) Inferência Estatística - Estimação Pontual
+ - **21/04 (Ter)**: *Feriado de Tiradentes*
+- **23/04 (Qui)**: (6) Inferência Estatística - Estimação Pontual
+ - **28/04 (Ter)**: Exercícios
+- **30/04 (Qui)**: **Prova 2**
+
+ - **05/05 (Ter)**: (7) Inferência Estatística - Estimação Intervalar
+- **07/05 (Qui)**: (7) Inferência Estatística - Estimação Intervalar
+ - **12/05 (Ter)**: (8) Inferência Estatística - Testes de Hipóteses
+- **14/05 (Qui)**: (8) Inferência Estatística - Testes de Hipóteses
+ - **19/05 (Ter)**: (9) Regressão e Correlação
+- **21/05 (Qui)**:  (9) Regressão e Correlação
+ - **26/05 (Ter)**: Exercícios
+- **28/05 (Qui)**: Exercícios
+ - **02/06 (Ter)**: **Prova 3**
+ 
+- **04/06 (Qui)**: Tópico Extra
+ - **09/06 (Ter)**: Tópico Extra
+- **11/06 (Qui)**: *Feriado de Corpus Christi*
+ - **16/06 (Ter)**: Tópico Extra
+- **18/06 (Qui)**: Tópico Extra
+ - **23/06 (Ter)**: Tópico Extra
+- **25/06 (Qui)**: Tópico Extra
+
+- **07/07 (Ter)**: **PROVA FINAL**
+
+
+
+
+
+### Ciências Biológicas
+
+```{r, eval=FALSE, include=FALSE}
+## Gera a lista com as datas de todas as aulas. 
+##  O resultado do último comando pode ser copiado direto para o documento
+datas1 <- seq.Date(as.Date("2020-03-04"), as.Date("2020-06-24"),
+                      by = "week")
+datas1 <- format.Date(datas1, format = "%d/%m")
+datas2 <- seq.Date(as.Date("2020-03-06"), as.Date("2020-06-26"),
+                      by = "week")
+datas2 <- format.Date(datas2, format = "%d/%m")
+
+cat(paste0("- **", datas1, " (Qua)", "**:\n", "- **",
+           datas2, " (Sex)", "**:\n"))
+```
+
+- **04/03 (Qua)**: Apresentação da disciplina
+- **06/03 (Sex)**: (1) Probabilidades
+ - **11/03 (Qua)**: (1) Probabilidades
+- **13/03 (Sex)**: (2) Análise Exploratória de Dados
+ - **18/03 (Qua)**: (2) Análise Exploratória de Dados
+- **20/03 (Sex)**: (3) Medidas de Resumo
+ - **25/03 (Qua)**: (3) Medidas de Resumo
+- **27/03 (Sex)**: Exercícios
+ - **01/04 (Qua)**: **Prova 1**
+ 
+- **03/04 (Sex)**: (4) Variáveis Aleatórias
+ - **08/04 (Qua)**: (4) Variáveis Aleatórias
+- **10/04 (Sex)**: *Feriado de Sexta Feira da Paixão*
+ - **15/04 (Qua)**: (5) Distribuições de Probabilidade
+- **17/04 (Sex)**: (5) Distribuições de Probabilidade
+ - **22/04 (Qua)**: (6) Inferência Estatística - Estimação Pontual
+- **24/04 (Sex)**: (6) Inferência Estatística - Estimação Pontual
+ - **29/04 (Qua)**: Exercícios
+- **01/05 (Sex)**: *Feriado de Dia do Trabalho*
+ - **06/05 (Qua)**: **Prova 2**
+ 
+- **08/05 (Sex)**: (7) Inferência Estatística - Estimação Intervalar
+ - **13/05 (Qua)**: (7) Inferência Estatística - Estimação Intervalar
+- **15/05 (Sex)**: (8) Inferência Estatística - Testes de Hipóteses
+ - **20/05 (Qua)**: (8) Inferência Estatística - Testes de Hipóteses
+- **22/05 (Sex)**: (9) Regressão e Correlação
+ - **27/05 (Qua)**: (9) Regressão e Correlação
+- **29/05 (Sex)**: Exercícios
+ - **03/06 (Qua)**: **Prova 3**
+ 
+- **05/06 (Sex)**: Tópico Extra
+ - **10/06 (Qua)**: Tópico Extra
+- **12/06 (Sex)**: Tópico Extra
+ - **17/06 (Qua)**: Tópico Extra
+- **19/06 (Sex)**: Tópico Extra
+ - **24/06 (Qua)**: Tópico Extra
+- **26/06 (Sex)**: Tópico Extra
+
+- **08/07 (Qua)**: **PROVA FINAL**
+
+
+
+
+
+
+
+
+
+

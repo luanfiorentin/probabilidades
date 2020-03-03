@@ -1,0 +1,53 @@
+﻿name: "aulas-ufpr"
+exclude: ["README.md", "\\.sh", "cache"]
+output_dir: "."
+output:
+  html_document:
+    theme: flatly
+    highlight: kate
+    code_folding: hide
+    number_sections: false
+    toc: true
+    toc_depth: 4
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    includes:
+      after_body: footer.html
+navbar:
+  title: "Estatística Básica"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Aulas"
+      href: aulas.html
+    - text: "Referências"
+      href: referencias.html
+    - text: "Notas"
+      href: notas.html
+    - text: "Material"
+      menu:
+      - text: "----------"
+      - text: "Slides"
+      - text: "----------"
+      - text: "Informações do curso"
+        href: slides/00_aula_inicial.pdf
+      - text: "Probabilidades"
+        href: slides/01_probabilidades.pdf
+      - text: "Análise Exploratória de Dados"
+        href: slides/02_analise_exploratoria_de_dados.pdf
+      - text: "Medidas Resumo"
+        href: slides/03_medidas_resumo.pdf
+      - text: "----------"
+      - text: "Material Complementar"
+      - text: "----------"
+      - text: "Apostila DEST"
+        href: slides/Apostila_DEST.pdf
+      - text: "Tabelas"
+        href: slides/tabelasEST.pdf
+      - text: "Dados"
+        href: slides/02_dados.pdf
+  right:
+    - text: GitHub
+      icon: fa-github fa-lg
+      href: https://github.com/luanfiorentin/aulas-ufpr
