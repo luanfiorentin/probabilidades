@@ -1,5 +1,5 @@
 ---
-title: "Estatística Básica"
+title: "Probabilidades"
 output: 
   html_document:
     toc: false
@@ -17,32 +17,27 @@ source("knitr_setup.R")
 
 A página abrange o conteúdo das seguintes disciplinas e cursos ofertados:
 
-- **CE003 - Estatística II**:
-  - Ciências Sociais (CS) - Matutino
-- **CE001 - Bioestatística**:
-  - Ciências Biológicas (CB) - Matutino
+- **CE0035 - Cálculo de Probabilidades A**:
+  - Licenciatura em Matemática (MA) - Noturno
 
 # Detalhes da oferta da disciplina
 
-- **Período:** Primeiro semestre de 2019
+- **Período:** Primeiro semestre de 2020
 - **Professor Responsável:**
     - Luan Demarco Fiorentin - DEST/UFPR
     - Contato: luanfiorentin@hotmail.com
 - **Horários e Locais:**
-  - Ciências Sociais (CS):
-    - Terça-feira, 10:30 - 12:30h (Sala Anfiteatro 1100)
-    - Quinta-feira, 09:30 - 11:30h (Sala Anfiteatro 1100)
-  - Ciências Biológicas (CB):
-    - Quarta-feira, 07:30 - 09:30h (Sala PC-04)
-    - Quinta-feira, 07:30 - 09:30h (Sala PA-06)
+  - Matemática (MA):
+    - Terça-feira, 19:00 - 20:30h (Sala PA-07)
+    - Quinta-feira, 20:45 - 22:15h (Sala PA-07)
 - **Horários de atendimento do professor:**
     - Sexta-feira, 10:00-11:30h e 13:30-15:00h (preferenciais) 
     - Outros horários podem ser agendados previamente por email
 - **Frequência**: De acordo com as normas da UFPR, mínimo de 75% de presença
 - **Avaliações**:
-  - As três provas serão realizadas em sala de aula
+  - As duas provas serão realizadas em sala de aula
   - **Média Final (MF)**: a média final será composta pela média geral simples
-  - $MF = (P1 + P2 + P3) / 3$
+  - $MF = (P1 + P2) / 2$
 - **Segunda chamada**:
   - Somente as provas discursivas poderão ter segunda chamada
     - Só será realizada segunda chamada para alunos que protocolarem o
@@ -58,13 +53,12 @@ A página abrange o conteúdo das seguintes disciplinas e cursos ofertados:
 # Programa/objetivos da disciplina
 
 O objetivo desta disciplina é capacitar os alunos em conceitos básicos
-de estatística que permitam a interpretação de resultados de análises e
-procedimentos estatísticos, bem como a execução de procedimentos e 
-análises estatística básicas. O curso compreende três grandes tópicos:
+de probabilidade. O curso compreende quatro grandes tópicos:
 
-- Análise descritiva e exploratória de dados.
-- Noções de probabilidades e distribuições de probabilidades.
-- Introdução à procedimentos de inferência estatística.
+- Teoria dos conjuntos e análise combinatória.
+- Conceitos de probabilidades e axiomas de Kolmogorov.
+- Variáveis aleatórias unidimensionais e distribuições de probabilidades.
+- Esperança e Variância.
 
 <!-- links -->
 

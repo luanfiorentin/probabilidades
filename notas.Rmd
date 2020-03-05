@@ -9,7 +9,7 @@ output:
 
 ## Escolha a aba de sua turma {.tabset}
 
-### Ciências Sociais (CS)
+### Licenciatura em Matemática (MA)
 
 Notas da prova 
 
@@ -55,54 +55,6 @@ htmlTable(notas.geo[, -c(1, 2, 4)],
                             "Situação Final")))
 
 ```
-
-
-
-
-
-### Ciências Biológicas (CB)
-
-Notas da prova 
-
-Nada ainda...
-
-```{r, eval=FALSE, echo=FALSE, warning=FALSE, message=FALSE}
-
-# Carregando dados
-notas.qui <- read_excel(path = "C:/Users/Luan/Dropbox/UFPR-Aulas/2020-01/Ciencias_Biologicas_2020_01/Bio_RelatoriodeDiariodeClasseExcel.xls", 
-                        col_names = TRUE, 
-                        sheet = "notas")
-notas.qui$P1 <- round(notas.qui$P1, digits = 2)
-notas.qui$P2 <- round(notas.qui$P2, digits = 2)
-notas.qui$P3 <- round(notas.qui$P3, digits = 2)
-notas.qui$Media <- round(notas.qui$Media, digits = 1)
-notas.qui$FREQ <- round(notas.qui$FREQ, digits = 0)
-notas.qui$STATUS <- (notas.qui$STATUS)
-notas.qui$Final <- round(notas.qui$Final, digits = 1)
-notas.qui$MediaFinal <- round(notas.qui$MediaFinal, digits = 1)
-notas.qui$STATUSFINAL <- (notas.qui$STATUSFINAL)
-
-# Notas
-htmlTable(notas.qui[, -c(1, 2, 4)], 
-          rnames = FALSE,  
-          align = "|c|c|c|c|c|c|c|",
-          align.header = "|c|c|c|c|c|c|c|", 
-          col.rgroup =  c("none", "#BBBBBB"), 
-          header =  paste(c("GRR", 
-                            "Frequência", 
-                            "Prova 1", 
-                            "Prova 2", 
-                            "Prova 3", 
-                            "Média das Provas", 
-                            "Situação Parcial", 
-                            "Nota da Final", 
-                            "Média Final", 
-                            "Situação Final")))
-
-```
-
-
-
 
 
 

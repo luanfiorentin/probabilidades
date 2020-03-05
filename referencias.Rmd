@@ -13,17 +13,20 @@ Livro básico da disciplina:
       [Lima, ACP](http://www.ime.usp.br/~acarlos).
       [Noções de Probabilidade e Estatística](http://www.ime.usp.br/~noproest).
       São Paulo: EDUSP, 2015 (7ª edição).
+      
+- Apostila do professor Fernando Lucambio Pérez. [Probabilidade](http://leg.ufpr.br/~lucambio/CE084/20201S/CE084.html).
 
 ## Referências complementares
 
 Livros recomendados:
 
+- Sheldon, R.
+  Probabilidade: um curso moderno com aplicações.
+  Bookman, 2010.
 - Bussab, WO; [Morettin, PA](http://www.ime.usp.br/~pam).
   [Estatística Básica](http://www.editorasaraiva.com.br/produtos/show/isbn:9788502207998/titulo:estatistica-basica/).
   São Paulo: [Editora Saraiva](http://www.saraivauni.com.br), 2017 (9ª
   Edição).
-- Andrade, DF; Ogliari, PJ.
-  [Estatística para as ciências agrárias e biológicas, com noções de experimentação](http://www.editora.ufsc.br/publicacao/detalhe/id/537). Florianópolis: Editora da UFSC, 2013.
 - Dantas, CAB.
   [Probabilidade: um curso introdutório](http://www.edusp.com.br/detlivro.asp?id=41384).
   São Paulo: EDUSP, 2008.
@@ -46,8 +49,6 @@ Livros recomendados:
 - [Kahn Academy](http://www.khanacademy.org) vídeos sobre diversos
       assuntos, incluindo sessões especificas de estatística e
       probabilidade.
-- [Udacity Online courses](http://www.udacity.com). Ver em particular:
-    - [Introduction to Statistics](https://www.udacity.com/course/st101)
 
 ## Leituras
 
