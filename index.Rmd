@@ -68,10 +68,10 @@ de probabilidade. O curso compreende quatro grandes tópicos:
   - Lei da Probabilidade Total; 
   - Teorema de Bayes. 
 - Variáveis aleatórias unidimensionais e distribuições de probabilidades.
-  - Variável aleatória discreta e contínua; 
+  - Variável aleatória; 
+  - Função de probabilidade; 
   - Função de distribuição; 
   - Função de densidade de probabilidade; 
-  - Função de probabilidade; 
   - Função de distribuição mista; 
   - Principais modelos discretos: 
     - Uniforme Discreto; 
