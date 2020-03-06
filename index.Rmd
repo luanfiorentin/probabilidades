@@ -56,9 +56,39 @@ O objetivo desta disciplina é capacitar os alunos em conceitos básicos
 de probabilidade. O curso compreende quatro grandes tópicos:
 
 - Teoria dos conjuntos e análise combinatória.
+  - Espaço amostral e Eventos; 
+  - Operações com conjuntos; 
+  - Combinações e Permutações; 
+  - Sigma-Álgebra. 
 - Conceitos de probabilidades e axiomas de Kolmogorov.
+  - Definição Clássica, Frequentista, Geomética e Axiomática; 
+  - Probabilidade condicional; 
+  - Independência de eventos; 
+  - Regra do produto de probabilidades; 
+  - Lei da Probabilidade Total; 
+  - Teorema de Bayes. 
 - Variáveis aleatórias unidimensionais e distribuições de probabilidades.
+  - Variável aleatória discreta e contínua; 
+  - Função de distribuição; 
+  - Função de densidade de probabilidade; 
+  - Função de probabilidade; 
+  - Função de distribuição mista; 
+  - Principais modelos discretos: 
+    - Uniforme Discreto; 
+    - Bernoulli; 
+    - Binomial; 
+    - Geométrico; 
+    - Binomial Negativo; 
+    - Hipergeométrico. 
+  - Principais modelos contínuos: 
+    - Uniforme Contínuo; 
+    - Exponencial; 
+    - Gamma; 
+    - Normal. 
 - Esperança e Variância.
+  - Esperança: caso discreto e contínuo; 
+  - Variância: caso discreto e contínuo; 
+  - Propriedades. 
 
 <!-- links -->
 

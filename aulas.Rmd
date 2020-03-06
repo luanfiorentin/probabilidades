@@ -33,7 +33,7 @@ cat(paste0("- **", datas1, " (Ter)", "**:\n", "- **",
 ```
 
 - **03/03 (Ter)**: Apresentação da disciplina
-- **05/03 (Qui)**: 
+- **05/03 (Qui)**: Introdução; Espaço amostral e eventos; Operações com conjuntos.
  - **10/03 (Ter)**: 
 - **12/03 (Qui)**: 
  - **17/03 (Ter)**: 

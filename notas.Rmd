@@ -3,8 +3,6 @@ title: "Notas"
 output:
   html_document:
     toc: no
-  pdf_document:
-    toc: no
 ---
 
 ## Escolha a aba de sua turma {.tabset}
