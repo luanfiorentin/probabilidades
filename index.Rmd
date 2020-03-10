@@ -72,14 +72,15 @@ de probabilidade. O curso compreende quatro grandes tópicos:
   - Função de probabilidade; 
   - Função de distribuição; 
   - Função de densidade de probabilidade; 
-  - Função de distribuição mista; 
+  - Função de distribuição condicional; 
   - Principais modelos discretos: 
     - Uniforme Discreto; 
     - Bernoulli; 
     - Binomial; 
     - Geométrico; 
     - Binomial Negativo; 
-    - Hipergeométrico. 
+    - Hipergeométrico; 
+    - Poisson. 
   - Principais modelos contínuos: 
     - Uniforme Contínuo; 
     - Exponencial; 
