@@ -9,9 +9,8 @@ output:
 
 Livro básico da disciplina:
 
-- [Magalhães, MN](http://www.ime.usp.br/~marcos);
-      [Lima, ACP](http://www.ime.usp.br/~acarlos).
-      [Noções de Probabilidade e Estatística](http://www.ime.usp.br/~noproest).
+- [Magalhães, MN](http://www.ime.usp.br/~marcos).
+      [Probabilidade e Variáveis Aleatórias](https://www.edusp.com.br/livros/probabilidade-e-variaveis-aleatorias).
       São Paulo: EDUSP, 2015 (7ª edição).
       
 - Apostila do professor Fernando Lucambio Pérez. [Probabilidade](http://leg.ufpr.br/~lucambio/CE084/20201S/CE084.html).
