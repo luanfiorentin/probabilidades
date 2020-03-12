@@ -30,6 +30,8 @@ navbar:
       - text: "----------"
       - text: "Slides"
       - text: "----------"
+      - text: "Lista de Exercícios"
+        href: slides/lista_exercicios.pdf
   right:
     - text: GitHub
       icon: fa-github fa-lg
