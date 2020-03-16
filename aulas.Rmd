@@ -36,10 +36,11 @@ cat(paste0("- **", datas1, " (Ter)", "**:\n", "- **",
 - **05/03 (Qui)**: Introdução; Espaço amostral e eventos; Operações com conjuntos.
  - **10/03 (Ter)**: Sigma-álgebra; Combinações e Permutações.
 - **12/03 (Qui)**: Exercícios.
- - **17/03 (Ter)**: 
-- **19/03 (Qui)**: 
- - **24/03 (Ter)**: 
-- **26/03 (Qui)**: 
+ - **17/03 (Ter)**: Aulas canceladas - As atividades serão anunciadas em breve.
+- **19/03 (Qui)**: Aulas canceladas - As atividades serão anunciadas em breve.
+ - **24/03 (Ter)**: Aulas canceladas - As atividades serão anunciadas em breve.
+- **26/03 (Qui)**: Aulas canceladas - As atividades serão anunciadas em breve.
+
  - **31/03 (Ter)**: 
 - **02/04 (Qui)**: 
  - **07/04 (Ter)**: 
